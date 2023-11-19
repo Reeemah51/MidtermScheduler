@@ -1,10 +1,13 @@
 import pandas as pd
 import csv
-# File paths for the CSV files (use raw string literals)
+from itertools import combinations
+import numpy as np
+
+# File paths for the CSV files (uncomment to use)
 csv_files = [
     #r"C:\Users\Administrator\Desktop\Pyrhon\batch1.csv",
     #r"C:\Users\Administrator\Desktop\Pyrhon\batch2.csv",
-    r"C:\Users\Administrator\Desktop\Pyrhon\batch3.csv",
+    #r"C:\Users\Administrator\Desktop\Pyrhon\batch3.csv",
 ]
 
 # Load and concatenate the CSV files into a single DataFrame
@@ -41,11 +44,8 @@ if 'student_data' in locals() and not student_data.empty:
     # Display the frequency of each subject
     print(subject_frequencies_df)
 
-from itertools import combinations
-import numpy as np
-
 # Defining the number of days for the exam period and maximum exams per day
-exam_period_days = 16  # 2 weeks excluding weekends
+exam_period_days = 16  # 3 weeks excluding weekends
 max_exams_per_day = 1  # To minimize the number of exams per day
 midterm_gap1 = 2 # Gap between midterms
 
