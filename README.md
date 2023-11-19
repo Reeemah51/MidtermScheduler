@@ -17,4 +17,4 @@ Contributing
 We welcome contributions! Feel free to submit issues or pull requests to enhance the scheduler's functionality.
 
 License
-This project is licensed under [Apache License]. See the [LICENSE]([(https://github.com/Reeemah51/MidtermScheduler/blob/main/LICENSE)https://github.com/Reeemah51/MidtermScheduler/blob/main/LICENSE]) file for details.
+This project is licensed under [Apache License]. See the [LICENSE](https://github.com/Reeemah51/MidtermScheduler/blob/main/LICENSE) file for details.
